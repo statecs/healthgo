@@ -93,7 +93,7 @@ slots:
     type: rasa_core.slots.UnfeaturizedSlot
 templates:
   utter_address:
-  - text: Adressen är {facility_address}.
+  - text: The address is {facility_address}.
   utter_ask_builder:
   - text: Utvecklare från Rasa 🛠
   utter_ask_facility_type:
@@ -110,7 +110,7 @@ templates:
   - text: Jag kan stava till baguette på franska, men tyvärr är svenska det enda språket
       jag kan svara dig på.
   utter_ask_location:
-  - text: Ange din adresss
+  - text: Ange din adress
   - text: Vad är din adress?
   - text: Ange stad eller postnummer
   - text: Ange ditt postnummer eller stad.
@@ -144,8 +144,8 @@ templates:
   - text: Tack själv
   - text: Det var så lite.
   utter_telljoke:
-  - text: Det står att när de skulle göra pannkakor i fängelset använde de en fånge
-      som smet.
   - text: Vad är klockan? En anordning som visar tiden.
   - text: Vem i kryddskåpet jobbar extra? Tim-jan!
   - text: Vilken kryddkille åker finlandsbåt? Per-silja!
+  - text: Det står att när de skulle göra pannkakor i fängelset använde de en fånge
+      som smet.
