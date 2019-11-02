@@ -1,0 +1,9 @@
+action_endpoint:
+  url: http://localhost:5055/webhook
+tracker_store:
+  type: mongod
+  url: mongodb://127.0.0.1:27017
+  db: healthgo
+  username: healthgo
+  password: healthgo
+  auth_source: healthgo

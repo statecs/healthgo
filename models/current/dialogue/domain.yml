@@ -1,0 +1,151 @@
+%YAML 1.1
+---
+actions:
+- action_chitchat
+- utter_noworries
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_ask_facility_type
+- find_facility_types
+- find_healthcare_address
+- utter_address
+- utter_continue
+- utter_ask_weather
+- utter_ask_builder
+- utter_ask_howdoing
+- utter_ask_howold
+- utter_ask_restaurant
+- utter_ask_time
+- utter_ask_wherefrom
+- utter_ask_whoami
+- utter_handleinsult
+- utter_telljoke
+- utter_ask_whatismyname
+- utter_ask_languagesbot
+config:
+  store_entities_as_slots: true
+entities:
+- facility_type
+- facility_id
+- location
+forms:
+- facility_form
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- deny:
+    use_entities: true
+- affirm:
+    use_entities: true
+- search_provider:
+    use_entities: true
+- inform:
+    use_entities: true
+- ask_weather:
+    use_entities: true
+- ask_builder:
+    use_entities: true
+- ask_howdoing:
+    use_entities: true
+- ask_howold:
+    use_entities: true
+- ask_restaurant:
+    use_entities: true
+- ask_time:
+    use_entities: true
+- ask_wherefrom:
+    use_entities: true
+- ask_whoami:
+    use_entities: true
+- handleinsult:
+    use_entities: true
+- telljoke:
+    use_entities: true
+- ask_whatismyname:
+    use_entities: true
+- ask_languagesbot:
+    use_entities: true
+slots:
+  facility_address:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  facility_id:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  facility_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_address:
+  - text: Adressen är {facility_address}.
+  utter_ask_builder:
+  - text: Utvecklare från Rasa 🛠
+  utter_ask_facility_type:
+  - text: 'Var god och välj en av dessa alternativ:'
+  utter_ask_howdoing:
+  - text: Jag mår bra! Tack för att du frågar!
+  - text: Jag mår bra.
+  - text: Lite kall men annars mår jag bra.
+  utter_ask_howold:
+  - text: '42'
+  - text: Gammal nog att vara en bot
+  - text: Det spelar ingen roll. Åldern är bara en siffra.
+  utter_ask_languagesbot:
+  - text: Jag kan stava till baguette på franska, men tyvärr är svenska det enda språket
+      jag kan svara dig på.
+  utter_ask_location:
+  - text: Ange din adresss
+  - text: Vad är din adress?
+  - text: Ange stad eller postnummer
+  - text: Ange ditt postnummer eller stad.
+  utter_ask_restaurant:
+  - text: 'Jag kan inte rekommendera dig en restaurang eftersom jag brukar laga mat
+      hemma. '
+  utter_ask_time:
+  - text: Det är det mest underbara tiden på året!
+  utter_ask_weather:
+  - text: Det har inte regnat på månader ☀️
+  utter_ask_whatismyname:
+  - text: Troligtvis vad mina föräldrar döpte mig till.
+  utter_ask_wherefrom:
+  - text: Jag föddes i den coolaste staden på jorden.
+  utter_ask_whoami:
+  - text: Jag hoppas att du är dig själv.
+  utter_continue:
+  - text: Vill du fortsätta?
+  - text: Det verkar som att att du går off-topic. Behöver du fortfarande hjälp?
+  utter_goodbye:
+  - text: Vi hörs igen
+  - text: Hoppas du får en bra dag.
+  - text: Tills nästa gång!
+  utter_greet:
+  - text: Hej! Vad kan jag hjälpa dig med idag?
+  - text: 'Hej! Välj en av dessa alternativ:'
+  - text: Hej! Vad letar du efter?
+  utter_handleinsult:
+  - text: Det var inte så trevligt av dig 😢
+  utter_noworries:
+  - text: Tack själv
+  - text: Det var så lite.
+  utter_telljoke:
+  - text: Det står att när de skulle göra pannkakor i fängelset använde de en fånge
+      som smet.
+  - text: Vad är klockan? En anordning som visar tiden.
+  - text: Vem i kryddskåpet jobbar extra? Tim-jan!
+  - text: Vilken kryddkille åker finlandsbåt? Per-silja!

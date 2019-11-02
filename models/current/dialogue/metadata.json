@@ -1,0 +1,42 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "facility_type",
+        "facility_id",
+        "location"
+      ]
+    },
+    "facility_form": {
+      "slots": []
+    },
+    "action_chitchat": {
+      "slots": []
+    },
+    "utter_address": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_noworries": {
+      "slots": []
+    }
+  },
+  "python": "3.6.9",
+  "max_histories": [
+    6,
+    6,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20191102-142329",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.2",
+  "sklearn": "0.20.2"
+}

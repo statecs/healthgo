@@ -1,0 +1,2785 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "ja"
+      },
+      {
+        "intent": "affirm",
+        "text": "javisst"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolut"
+      },
+      {
+        "intent": "affirm",
+        "text": "säkert"
+      },
+      {
+        "intent": "affirm",
+        "text": "ja ja ja"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitivt"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "okej"
+      },
+      {
+        "intent": "deny",
+        "text": "nej"
+      },
+      {
+        "intent": "deny",
+        "text": "inte idag"
+      },
+      {
+        "intent": "deny",
+        "text": "nej tack"
+      },
+      {
+        "intent": "deny",
+        "text": "inte just nu"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "stop"
+      },
+      {
+        "intent": "deny",
+        "text": "har du något annat"
+      },
+      {
+        "intent": "deny",
+        "text": "nej det här fungerar inte"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hejdå"
+      },
+      {
+        "intent": "goodbye",
+        "text": "adjö!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hej då"
+      },
+      {
+        "intent": "goodbye",
+        "text": "vi hörs senare"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hejdå bott"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hejdå min vän"
+      },
+      {
+        "intent": "goodbye",
+        "text": "adjö"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hejdå för nu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "vi ses senare"
+      },
+      {
+        "intent": "goodbye",
+        "text": "måste gå nu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "vi ses"
+      },
+      {
+        "intent": "goodbye",
+        "text": "god natt"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ha en bra dag"
+      },
+      {
+        "intent": "goodbye",
+        "text": "jag är av"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ses senare"
+      },
+      {
+        "intent": "goodbye",
+        "text": "vi får prata mer senare"
+      },
+      {
+        "intent": "goodbye",
+        "text": "sluta"
+      },
+      {
+        "intent": "goodbye",
+        "text": "avsluta"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stäng"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stäng av"
+      },
+      {
+        "intent": "greet",
+        "text": "Hej"
+      },
+      {
+        "intent": "greet",
+        "text": "Yo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hej på dig!"
+      },
+      {
+        "intent": "greet",
+        "text": "Halloj"
+      },
+      {
+        "intent": "greet",
+        "text": "god morgon"
+      },
+      {
+        "intent": "greet",
+        "text": "hej igen"
+      },
+      {
+        "intent": "greet",
+        "text": "hej på dig"
+      },
+      {
+        "intent": "greet",
+        "text": "hejsan"
+      },
+      {
+        "intent": "greet",
+        "text": "tjenare"
+      },
+      {
+        "intent": "greet",
+        "text": "tja!"
+      },
+      {
+        "intent": "greet",
+        "text": "tjenare mannen!"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Sitka",
+            "entity": "location"
+          }
+        ],
+        "text": "Sitka"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Juneau",
+            "entity": "location"
+          }
+        ],
+        "text": "Juneau"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Virginia",
+            "entity": "location"
+          }
+        ],
+        "text": "Virginia"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Cusseta",
+            "entity": "location"
+          }
+        ],
+        "text": "Cusseta"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chicago",
+            "entity": "location"
+          }
+        ],
+        "text": "Chicago"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Tucson",
+            "entity": "location"
+          }
+        ],
+        "text": "Tucson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Columbus",
+            "entity": "location"
+          }
+        ],
+        "text": "Columbus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Valdez",
+            "entity": "location"
+          }
+        ],
+        "text": "Valdez"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Preston",
+            "entity": "location"
+          }
+        ],
+        "text": "Preston"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Huntsville",
+            "entity": "location"
+          }
+        ],
+        "text": "Huntsville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Boulder",
+            "entity": "location"
+          }
+        ],
+        "text": "Boulder"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "California",
+            "entity": "location"
+          }
+        ],
+        "text": "California"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tulsa",
+            "entity": "location"
+          }
+        ],
+        "text": "Tulsa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Colorado",
+            "entity": "location"
+          }
+        ],
+        "text": "Colorado"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Goodyear",
+            "entity": "location"
+          }
+        ],
+        "text": "Goodyear"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Albuquerque",
+            "entity": "location"
+          }
+        ],
+        "text": "Albuquerque"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Scottsdale",
+            "entity": "location"
+          }
+        ],
+        "text": "Scottsdale"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Hibbing",
+            "entity": "location"
+          }
+        ],
+        "text": "Hibbing"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Norman",
+            "entity": "location"
+          }
+        ],
+        "text": "Norman"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "San",
+            "entity": "location"
+          }
+        ],
+        "text": "San"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Peoria",
+            "entity": "location"
+          }
+        ],
+        "text": "Peoria"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "New",
+            "entity": "location"
+          }
+        ],
+        "text": "New"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Corpus",
+            "entity": "location"
+          }
+        ],
+        "text": "Corpus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Montgomery",
+            "entity": "location"
+          }
+        ],
+        "text": "Montgomery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Wichita",
+            "entity": "location"
+          }
+        ],
+        "text": "Wichita"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Aurora",
+            "entity": "location"
+          }
+        ],
+        "text": "Aurora"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Denver",
+            "entity": "location"
+          }
+        ],
+        "text": "Denver"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sierra",
+            "entity": "location"
+          }
+        ],
+        "text": "Sierra"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Georgetown",
+            "entity": "location"
+          }
+        ],
+        "text": "Georgetown"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Birmingham",
+            "entity": "location"
+          }
+        ],
+        "text": "Birmingham"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Fayetteville",
+            "entity": "location"
+          }
+        ],
+        "text": "Fayetteville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Carson",
+            "entity": "location"
+          }
+        ],
+        "text": "Carson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Raleigh",
+            "entity": "location"
+          }
+        ],
+        "text": "Raleigh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Bakersfield",
+            "entity": "location"
+          }
+        ],
+        "text": "Bakersfield"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mobile",
+            "entity": "location"
+          }
+        ],
+        "text": "Mobile"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Detroit",
+            "entity": "location"
+          }
+        ],
+        "text": "Detroit"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bunnell",
+            "entity": "location"
+          }
+        ],
+        "text": "Bunnell"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Chattanooga",
+            "entity": "location"
+          }
+        ],
+        "text": "Chattanooga"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mesa",
+            "entity": "location"
+          }
+        ],
+        "text": "Mesa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Fernley",
+            "entity": "location"
+          }
+        ],
+        "text": "Fernley"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Marana",
+            "entity": "location"
+          }
+        ],
+        "text": "Marana"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Yuma",
+            "entity": "location"
+          }
+        ],
+        "text": "Yuma"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Little",
+            "entity": "location"
+          }
+        ],
+        "text": "Little"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Athens",
+            "entity": "location"
+          }
+        ],
+        "text": "Athens"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Hartsville",
+            "entity": "location"
+          }
+        ],
+        "text": "Hartsville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Port",
+            "entity": "location"
+          }
+        ],
+        "text": "Port"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tampa",
+            "entity": "location"
+          }
+        ],
+        "text": "Tampa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Fresno",
+            "entity": "location"
+          }
+        ],
+        "text": "Fresno"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Unalaska",
+            "entity": "location"
+          }
+        ],
+        "text": "Unalaska"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Eloy",
+            "entity": "location"
+          }
+        ],
+        "text": "Eloy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Salt",
+            "entity": "location"
+          }
+        ],
+        "text": "Salt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Jackson",
+            "entity": "location"
+          }
+        ],
+        "text": "Jackson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Fort",
+            "entity": "location"
+          }
+        ],
+        "text": "Fort"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Casa",
+            "entity": "location"
+          }
+        ],
+        "text": "Casa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Charleston",
+            "entity": "location"
+          }
+        ],
+        "text": "Charleston"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Henderson",
+            "entity": "location"
+          }
+        ],
+        "text": "Henderson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Durham",
+            "entity": "location"
+          }
+        ],
+        "text": "Durham"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Abilene",
+            "entity": "location"
+          }
+        ],
+        "text": "Abilene"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Palmdale",
+            "entity": "location"
+          }
+        ],
+        "text": "Palmdale"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Babbitt",
+            "entity": "location"
+          }
+        ],
+        "text": "Babbitt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Surprise",
+            "entity": "location"
+          }
+        ],
+        "text": "Surprise"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Cape",
+            "entity": "location"
+          }
+        ],
+        "text": "Cape"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Shreveport",
+            "entity": "location"
+          }
+        ],
+        "text": "Shreveport"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Rio",
+            "entity": "location"
+          }
+        ],
+        "text": "Rio"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Savannah",
+            "entity": "location"
+          }
+        ],
+        "text": "Savannah"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Reno",
+            "entity": "location"
+          }
+        ],
+        "text": "Reno"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Orlando",
+            "entity": "location"
+          }
+        ],
+        "text": "Orlando"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "North",
+            "entity": "location"
+          }
+        ],
+        "text": "North"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Tallahassee",
+            "entity": "location"
+          }
+        ],
+        "text": "Tallahassee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amarillo",
+            "entity": "location"
+          }
+        ],
+        "text": "Amarillo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "St",
+            "entity": "location"
+          }
+        ],
+        "text": "St"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Knoxville",
+            "entity": "location"
+          }
+        ],
+        "text": "Knoxville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Sacramento",
+            "entity": "location"
+          }
+        ],
+        "text": "Sacramento"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Clarksville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Los Angeles",
+            "entity": "location"
+          }
+        ],
+        "text": "Los Angeles"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "New York"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Las Vegas",
+            "entity": "location"
+          }
+        ],
+        "text": "Las Vegas"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "San Diego",
+            "entity": "location"
+          }
+        ],
+        "text": "San Diego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "San Antonio",
+            "entity": "location"
+          }
+        ],
+        "text": "San Antonio"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "El Paso",
+            "entity": "location"
+          }
+        ],
+        "text": "El Paso"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Kansas location",
+            "entity": "location"
+          }
+        ],
+        "text": "Kansas location"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "San Francisco",
+            "entity": "location"
+          }
+        ],
+        "text": "San Francisco"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Santa Barbara",
+            "entity": "location"
+          }
+        ],
+        "text": "Santa Barbara"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "home health agency"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hospital"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "nursing home"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 20,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "a home health agency"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "a hospital"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 14,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "find me a nearby hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "hospitals",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "show me hospitals"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "10119",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby hospital my zip code is 10119"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i need a home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "find me a nearby home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "show me home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "value": "10119",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby home health agency my zip code is 10119"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "find me a nearby nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "show me nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "10119",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby nursing home my zip code is 10119"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "77494",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a hospital my zip code is 77494"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "30277",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 46,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "my zip code is 30277 and i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "86602",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "my zip code is 86602 and i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "47516",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 52,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "my zip code is 47516 and i need a home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "77474",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a nursing home at 77474"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "77474",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a hospital at 77474"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "77474",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a home health agency at 77474"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Amarillo",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i am in Amarillo and i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "New York",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i am in New York and i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Las Vegas",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 48,
+            "value": "home healt agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i am in Las Vegas and i need a home healt agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "Katy",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a nursing home in Katy"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Waco",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a hospital in Waco"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a home health agency in Clarksville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Knoxville",
+            "entity": "location"
+          }
+        ],
+        "text": "show me nursing home in Knoxville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Durham",
+            "entity": "location"
+          }
+        ],
+        "text": "show me hospital in Durham"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Detroit",
+            "entity": "location"
+          }
+        ],
+        "text": "show me home health agency in Detroit"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "Reno",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby home health agency in Reno"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Tampa",
+            "entity": "location"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Tampa i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "San Diego",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in San Diego i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Nashville",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 47,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Nashville i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Sacramento",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Sacramento i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Springfield",
+            "entity": "location"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Springfield i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Atlanta",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 45,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Atlanta i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Chicago",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 40,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Chicago i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Santa Cruz",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Santa Cruz i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Boston",
+            "entity": "location"
+          },
+          {
+            "start": 27,
+            "end": 44,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Boston i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Tampa",
+            "entity": "location"
+          },
+          {
+            "start": 29,
+            "end": 41,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Tampa i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "San Diego",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in San Diego i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Nashville",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 50,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Nashville i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "Sacramento",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 46,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Sacramento i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Springfield",
+            "entity": "location"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Springfield i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Atlanta",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 48,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Atlanta i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Chicago",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Chicago i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "Santa Cruz",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Santa Cruz i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Boston",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 47,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Boston i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Tampa",
+            "entity": "location"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Tampa i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "San Diego",
+            "entity": "location"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in San Diego i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Nashville",
+            "entity": "location"
+          },
+          {
+            "start": 40,
+            "end": 57,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Nashville i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Sacramento",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 53,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Sacramento i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Springfield",
+            "entity": "location"
+          },
+          {
+            "start": 42,
+            "end": 50,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Springfield i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Atlanta",
+            "entity": "location"
+          },
+          {
+            "start": 38,
+            "end": 55,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Atlanta i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Chicago",
+            "entity": "location"
+          },
+          {
+            "start": 38,
+            "end": 50,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Chicago i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Santa Cruz",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Santa Cruz i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Boston",
+            "entity": "location"
+          },
+          {
+            "start": 37,
+            "end": 54,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Boston i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "Katy",
+            "entity": "location"
+          }
+        ],
+        "text": "Hello again i need a nursing home in Katy"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "Waco",
+            "entity": "location"
+          }
+        ],
+        "text": "Hello again i need a hospital in Waco"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 43,
+            "end": 54,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Hello again i need a home health agency in Clarksville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "Katy",
+            "entity": "location"
+          }
+        ],
+        "text": "Good morning i need a nursing home in Katy"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "Waco",
+            "entity": "location"
+          }
+        ],
+        "text": "Good morning i need a hospital in Waco"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 40,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 44,
+            "end": 55,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Good morning i need a home health agency in Clarksville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "Oklahoma City",
+            "entity": "location"
+          }
+        ],
+        "text": "Can you tell me a nursing home in Oklahoma City ?"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Tack"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Tack så mycket!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Tack för hjälpen"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Tack bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Tack för det"
+      },
+      {
+        "intent": "thankyou",
+        "text": "hälsningar"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "perfekt, tack"
+      },
+      {
+        "intent": "thankyou",
+        "text": "tack för allt"
+      },
+      {
+        "intent": "thankyou",
+        "text": "du är bäst"
+      },
+      {
+        "intent": "thankyou",
+        "text": "tack så hemskt mycket"
+      },
+      {
+        "intent": "thankyou",
+        "text": "underbart!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Coolt, tack"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur mår du idag?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur är läget?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "är du okej?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Mår du bra?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur går det för dig?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hur står det till?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur mår du denna morgon?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur har du det?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur är din dag?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur är din kväll?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hur är livet?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur går din dag?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hur har du haft det?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Vad är nytt?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "vad händer mannen?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Vad pågår?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Är allting okej?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "är allt okej?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "har du en fantastisk dag?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "jag mår bra, hur mår du?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "mår du bra?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hur mår du?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hur mås det?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Vad händer?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Läget?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Sup?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Vad gör du?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Hur är vädret idag?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Regnar det?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Vad är det för väder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Vem byggde dig?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Vem skapade dig?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Vad är ditt namn?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "hitta restauranger"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "dra åt helvete"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "du är sämst"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "hatar dig"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "sämsta skiten"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you machine learning bot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck u"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "what fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fucking stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are fucking stupid guy！"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "go fuck yourself"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck rasa"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you!"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck Off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "FUCK"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fucking work"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "ok shut up"
+      },
+      {
+        "intent": "telljoke",
+        "text": "berätta ett skämt"
+      },
+      {
+        "intent": "telljoke",
+        "text": "säg ett skämt"
+      },
+      {
+        "intent": "telljoke",
+        "text": "säg något roligt"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Vad är ett bra skämt?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Känner du till några roliga skämt?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Berätta något roligt"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Deta ett skämt"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Säg ett roligt skämt"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Vart bor du?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Vart kommer du ifrån?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Vart är du?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Vart föddes du?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Vad är klockan?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Vad är klockan just nu?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Vad är tiden?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Vad är din ålder?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Vem är jag?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Berätta vem jag är?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Vilka språk kan du?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Vad är mitt namn?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Vad kallar jag mig?"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "location",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "b27b-2uc7",
+        "synonyms": [
+          "nursing home",
+          "nursing homes"
+        ]
+      },
+      {
+        "value": "rbry-mqwu",
+        "synonyms": [
+          "hospital",
+          "hospitals"
+        ]
+      },
+      {
+        "value": "9wzi-peqs",
+        "synonyms": [
+          "home health agenc",
+          "home health agency",
+          "home health agencies"
+        ]
+      }
+    ]
+  }
+}
